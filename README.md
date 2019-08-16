@@ -49,7 +49,7 @@ docker-compose up
 Na na pasta do aplicaçao executar os comandos:
 (*repositório do [Docker Hub]*)
 ```
-**docker build** -t "adgonsou/truckpad:latest" . 
+docker build -t "adgonsou/truckpad:latest" . 
 docker push adgonsou/truckpad:latest
 docker run -p 5000:5000 adgonsou/truckpad:latest
 ```
@@ -64,6 +64,8 @@ docker run -p 5000:5000 adgonsou/truckpad:latest
 
 ### Healthcheck
 WT??????
+
+------------
 
 ### Autoria
 Adriano Gonçalves de Souza
