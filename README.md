@@ -33,11 +33,11 @@ Precisamos criar uma api para para cadastrar os motoristas que chegam nesse term
 * Fique a vontade para adicionar os recursos que achar necessário.
 
 
-### How to Run Application
+### Como rodar a aplicação
 * Instalar o [Docker] seguindo os procedimentos informados de acordo com seu sistema operacional
 * Baixar o código fonte do projeto
 
-### With Docker Compose
+### Utilizando Docker Compose
 Na pasta da aplicação executar os comandos:
 ```
 docker-compose build
@@ -45,7 +45,7 @@ docker-compose up
 ```
 <img src="images/Homepage.png" align="center"/>
 
-### With Docker
+### Utilizando Docker
 Na na pasta do aplicaçao executar os comandos:
 (*Utilizando repositório do [Docker Hub]*)
 ```
@@ -56,7 +56,7 @@ docker run -p 5000:5000 adgonsou/truckpad:latest
 
 <img src="images/Homepage.png" align="center"/>
 
-**Test in a curl command ou your browser like this:**
+**Teste se a aplicação subiu com curl ou browser:**
 * curl -v "http://localhost:5000/"
 * Ou acessando o link no navegador http://localhost:5000
 
