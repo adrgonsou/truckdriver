@@ -46,10 +46,10 @@ docker-compose up
 <img src="images/Homepage.png" align="center"/>
 
 ### Utilizando Docker
-- Na na pasta do aplicaçao executar os comandos:
+Na na pasta do aplicaçao executar os comandos:
 (*repositório do [Docker Hub]*)
 ```
-docker build -t "adgonsou/truckpad:latest" . 
+**docker build** -t "adgonsou/truckpad:latest" . 
 docker push adgonsou/truckpad:latest
 docker run -p 5000:5000 adgonsou/truckpad:latest
 ```
@@ -66,8 +66,8 @@ docker run -p 5000:5000 adgonsou/truckpad:latest
 WT??????
 
 ### Autoria
-- Adriano Gonçalves de Souza
-- adriano.g.souza@gmail.com
+Adriano Gonçalves de Souza
+adriano.g.souza@gmail.com
 
 [Docker]: https://docs.docker.com/install/
 [Docker Hub]: https://hub.docker.com/
