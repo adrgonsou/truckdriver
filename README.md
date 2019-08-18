@@ -56,14 +56,20 @@ docker build -t "adgonsou/truckpad:latest" .
 docker push adgonsou/truckpad:latest
 docker run -p 5000:5000 adgonsou/truckpad:latest
 ```
-
 <img src="images/Homepage.png" align="center"/>
 
 **Teste se a aplicação subiu com curl ou browser:**
 * curl -v "http://localhost:5000/"
 * Ou acessando o link no navegador http://localhost:5000
 
+### Para debugar no container
+Adicionar a tag **pdb** no bloco do código, salvar e subir a aplicação executando o comando: *docker-compose run --service-ports web python app.py shell*. Exemplo:
 
+```
+def root():
+    import pdb; pdb.set_trace()
+    return jsonify({"title":"Teste Backend", "author": "Adriano Souza"})
+```
 
 ### Healthcheck
 WT??????

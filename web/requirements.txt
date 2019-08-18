@@ -1,4 +1,9 @@
-Flask
+flask
 flask-restful
 flask-api
 pymongo
+pytest
+ipdb
+ipython
+isort
+pandas

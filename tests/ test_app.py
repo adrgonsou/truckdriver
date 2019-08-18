@@ -2,26 +2,18 @@ import os
 import tempfile
 import pytest
 import status
+import datetime
 
-from app import app
-
-@pytest.fixture
-def trucker():
-    app.config['TESTING'] = True
-    trucker = app.test_trucker()
-
-    yield trucker
-
-def test_valid_truck_driver(trucker):
+def test_truck_driver_response_200(self ):
     driver = {
         {
             "name": "Fernando Souza",
             "age": 31,
             "gender": "masculino",
             "cnh": "D",
+            "truckload": False,
+            "owner_truck" : True,
             "truck" : {
-                "owner" : True,
-                "with_charge": False,
                 "type": 1
             },
             "road_trip": {
@@ -45,7 +37,8 @@ def test_valid_truck_driver(trucker):
                         "lng" : -3.6890573
                     }
                 }
-            }
+            },
+            "datetime": datetime.datetime.now()
         }
     }
     
