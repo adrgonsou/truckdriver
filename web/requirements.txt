@@ -5,5 +5,3 @@ pymongo
 pytest
 ipdb
 ipython
-isort
-pandas

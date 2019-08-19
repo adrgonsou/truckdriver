@@ -68,11 +68,8 @@ Adicionar a tag **pdb** no bloco do código, salvar e subir a aplicação execut
 ```
 def root():
     import pdb; pdb.set_trace()
-    return jsonify({"title":"Teste Backend", "author": "Adriano Souza"})
+    return jsonify({"pdb":"pdb.set_trace()"})
 ```
-
-### Healthcheck
-WT??????
 
 ------------
 
