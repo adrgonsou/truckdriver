@@ -57,6 +57,13 @@ docker run -p 5000:5000 adgonsou/truckpad:latest
 * curl -v "http://localhost:5000/"
 * Ou acessando o link no navegador http://localhost:5000
 
+### Endpoints
+* http://localhost:5000/api/drivers
+* http://localhost:5000/api/owner_truck
+* http://localhost:5000/api/truckempty
+* http://localhost:5000/api/geolocation_by_truck_type
+* http://localhost:5000/api/report
+
 ### Autoria
 Adriano Gonçalves de Souza
 adriano.g.souza@gmail.com
