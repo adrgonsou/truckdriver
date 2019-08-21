@@ -1,7 +1,10 @@
 flask
 flask-restful
 flask-api
+flask-swagger
+flask-swagger-ui
 pymongo
 pytest
 ipdb
 ipython
+pandas
