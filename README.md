@@ -32,8 +32,15 @@ Precisamos criar uma api para para cadastrar os motoristas que chegam nesse term
 * O padrão de resposta das apis devem ser em ​ JSON​ .
 * Fique a vontade para adicionar os recursos que achar necessário.
 
+# Aplicação
 
-### Como rodar a aplicação
+### Tecnologias utilizadas
+* Docker
+* Python 3
+* MongoDB 4
+* pytest
+
+### Como rodar
 * Instalar o [Docker] seguindo os procedimentos informados de acordo com seu sistema operacional
 * Baixar o código fonte do projeto
 
